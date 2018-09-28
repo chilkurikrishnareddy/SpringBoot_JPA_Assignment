@@ -20,7 +20,7 @@ import com.cts.springboot.jpa.service.BookService;
 public class Application {
 
 	@Autowired
-	BookService bookService;
+	private BookService bookService;
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class);
